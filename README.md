@@ -1,12 +1,19 @@
 ## 运行方法
 
-分别到 server 和 client 目录 `npm i` 安装依赖
+1. `cd client` - 进入前端目录
+2. `npm i` - 安装依赖
+3. `npm run build` - 编译前端代码到服务端
+4. `cd ../server` - 进入服务端目录
+5. `npm i` - 安装依赖
+6. `npm start` - 启动后端服务
 
-前端运行命令见
+开发时需要先启动后端服务，然后在前端目录执行 `npm run serve`
+
+前端运行命令文档见
 (https://cli.vuejs.org/zh/guide/cli-service.html#%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4)
 
-后端运行命令见
-(https://thinkjs.org/zh-cn/doc/3.0/create_project.html)
+后端运行命令文档见
+(https://github.com/thinkjs/think-cli#commands)
 
 ## 项目介绍
 

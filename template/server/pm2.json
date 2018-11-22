@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "demo",
+      "script": "production.js",
+      "exec_mode": "fork",
+      "cwd": "./",
+      "max_memory_restart": "1G",
+      "autorestart": true,
+      "node_args": [],
+      "args": [],
+      "env": {}
+    }
+  ]
+}

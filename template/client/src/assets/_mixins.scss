@@ -1,0 +1,26 @@
+@mixin line-clip($line, $inline: false) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  @if ($line==1) {
+    white-space: nowrap;
+    @if ($inline) {
+      display: inline-block;
+    }
+    @else {
+      display: block;
+    }
+  }
+  @else {
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    @if ($inline) {
+      display: inline-block;
+      display: -webkit-inline-box;
+    }
+    @else {
+      display: block;
+      display: -webkit-box;
+    }
+  }
+}

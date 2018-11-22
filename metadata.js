@@ -19,6 +19,7 @@ module.exports = {
       "default": false
     }
   },
+  "skipCompile": "client/**/*.html",
   "new": {
     "default": [
       ['server/src/bootstrap', 'server/src/bootstrap'],
